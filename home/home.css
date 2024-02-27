@@ -139,20 +139,20 @@ header h1:hover {
 @media (max-width: 1440px) {
   .home-image img {
     width: 400px;
-    height: 500px;
+    height: 480px;
   }
   .home-content {
-    width: 800px;
+    width: 750px;
   }
 
   .home-content .firstType {
-    font-size: 3.5rem;
+    font-size: 3.4rem;
   }
   .home-content .altName {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
   .home .home-content .description {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-left: 5px;
   }
   .home .home-content .btn {
