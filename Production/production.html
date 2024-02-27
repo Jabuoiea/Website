@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Production</title>
+    <link rel="stylesheet" href="./production.css">
+    <link rel="stylesheet" href="../button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css" integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Caveat&family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Vina+Sans&display=swap" rel="stylesheet">    
+</head>
+<body onload="loader()">
+  <script>
+  function loader() {
+    setTimeout(() => {
+      document.querySelector(".container").classList.add("hide");
+    }, 0);
+    setTimeout(() => {
+      document.querySelector(".container").classList.remove("hide");
+      document.querySelector(".spinner").classList.add("hide");
+    }, 2000);
+  }
+  
+  $(document).ready(function () {
+    $(".image-link").on("contextmenu", function (e) {
+      return false;
+    });
+  });
+  </script>
+  
+<div class="spinner">
+    <div class="spinner-stop"></div>
+        <div class="stop">
+          <p> TAKING IT SLEAZY <br/>
+              BECAUSE PEOPLE DON'T <br/>
+              LIKE MESSY. 
+          </p>
+        </div>
+    </div>
+</div>
+<!-- div for spinner hide -->
+<div class="container">
+<!-- div for spinner hide -->
+<header>
+    <nav class="menu">
+        <ul id="nav">
+        <aside class="nav-links">
+            <ul class="nav-list">
+                <li class="nav-link"><a href="../home/home.html" target="_blank"><i class="ri-home-3-line"></i></a></li>
+                <li class="nav-link"><a href="../illustration/illustrations.html" target="_blank"><i class="ri-pencil-line"></i></a></li>
+                <li class="nav-link"><a href="#" target="_blank"><i class="ri-lightbulb-flash-line"></i></a></li>
+                <li class="nav-link"><a href="#" target="_blank"><i class="ri-camera-3-line"></i></a></li>
+            </ul>
+        </aside>      
+    </nav>
+</header>
+<section>
+  <div class="wrapper">
+    <div class="content">
+      <h1>Post Production</h1>
+      <p>This is my Post Production Work Including 3D Modeling, Video Editing and Animation. <br/>
+      For Academic Purposes Only.
+      </p>
+    </div>
+      <div class="main-vid">
+        <video class="pin-vid" controls autoplay muted>
+          <source src="../FOR WEBSITE/VIDEO EDITING/Semana_Editing Exercise 2_Horror Recut on UP.mp4">
+        </video>
+      </div>
+  </div> 
+</section>
+<section>
+  <h2>Story Board</h2>
+  <div class="prod">
+    <div class="content-prod-story">
+      <div class="box-prod-story">
+        <video class="story-vid" poster="../FOR WEBSITE/Thumbnail/storyboard-thumbnail.png" controls>
+          <source src="../FOR WEBSITE/STORYBOARDING/Storyboarding Animatic.mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  <div class="story-board">
+    <a class="btn-flip" data-back="SELECTA" data-front="Storyboard 1" href="../FOR WEBSITE/STORYBOARDING/SEMANA_EX01.pdf"></a>
+    <a class="btn-flip" data-back="WARM ADVENTURES" data-front="Storyboard 2" href="../FOR WEBSITE/STORYBOARDING/SEMANA_EX02.pdf"></a>
+    <a class="btn-flip" data-back="COOKIE CHRONICLES" data-front="Storyboard 3" href="../FOR WEBSITE/STORYBOARDING/SEMANA_EX03.pdf"></a>
+    <a class="btn-flip" data-back="THE CITY" data-front="Storyboard 4" href="../FOR WEBSITE/STORYBOARDING/SEMANA_EX04.pdf"></a>
+  </div>
+</section>
+<section>
+  <h2>Video Editing</h2>
+  <div class="prod">
+    <div class="content-prod">
+      <div class="box-prod">
+        <video controls poster="../FOR WEBSITE/Thumbnail/Walt-thumbnail.png">
+          <source src="../FOR WEBSITE/VIDEO EDITING/Semana_Editing Exercise 2_Horror Recut on UP.mp4">
+        </video>
+      </div>
+      <div class="box-prod">
+        <video controls poster="../FOR WEBSITE/Thumbnail/Frutes-Thumbnail.png">
+          <source src="../FOR WEBSITE/VIDEO EDITING/FRUTES Studios_Production Logo.mp4">
+        </video>
+      </div>
+      <div class="box-prod">
+        <video controls>
+          <source src="../FOR WEBSITE/VIDEO EDITING/SEMANA_Kilig.mp4">
+        </video>
+      </div>
+      <div class="box-prod">
+        <video controls>
+          <source src="../FOR WEBSITE/VIDEO EDITING/SEMANA_ProjectHappiness.mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <h2>Animation</h2>
+  <div class="prod">
+    <div class="content-prod">
+      <div class="box-prod">
+        <video poster="../FOR WEBSITE/Thumbnail/3d-Thumbnail.png" controls>
+          <source src="../FOR WEBSITE/ANIMATION/For Instagram.mp4">
+        </video>
+      </div>
+      <div class="box-prod">
+      <video controls>
+        <source src="../FOR WEBSITE/ANIMATION/Semana, Nina Louise Task 6.mp4">
+      </video>
+      </div>
+      <div class="box-prod">
+      <video controls>
+        <source src="../FOR WEBSITE/ANIMATION/Semana, Nina Louise_FINALS.mp4">
+      </video>
+      </div>
+      <div class="box-prod">
+      <video controls>
+        <source src="../FOR WEBSITE/ANIMATION/YGATA.mp4">
+      </video>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <h2>3D Modeling</h2>
+  <div class="prod">
+    <div class="content-prod">
+      <div class="box-prod">
+        <img src="../FOR WEBSITE/3D Modeling/SampleGif.gif" alt="">
+      </div>
+      <div class="box-prod">
+        <img src="../FOR WEBSITE/3D Modeling/SEMANA_BubwitIII_CleanedUp.gif" alt="">
+      </div>
+      <div class="box-prod">
+        <img src="../FOR WEBSITE/3D Modeling/Semana_FinProj1.jpg" alt="">
+      </div>
+      <div class="box-prod">
+        <img src="../FOR WEBSITE/3D Modeling/Threzlangxer.png" alt="">
+      </div>
+      <div class="box-prod">
+        <img src="../FOR WEBSITE/3D Modeling/W2_Semana_EXT.jpg" alt="">
+      </div>
+      <div class="box-prod">
+        <img src="../FOR WEBSITE/3D Modeling/W2_Semana_INT.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+    <nav class="menu1">
+        <ul id="nav1">
+        <aside class="nav-links1">
+            <ul class="nav-list1">
+              <li class="nav-link1"><a href="https://www.instagram.com/jabuoiea/" target="_blank"><i class="ri-instagram-line"></i></a></li>
+              <li class="nav-link1"><a href="https://linkedin.com/in/ninalouise-semana" target="_blank"><i class="ri-linkedin-box-line"></i></a></li>
+              <li class="nav-link1"><a href="https://twitter.com/jabuoiea" target="_blank"><i class="ri-twitter-x-line"></i></a></li>
+            </ul>
+        </aside>            
+    </nav>
+
+</footer>
+<!-- closed div for spinner hide -->
+</div>
+<!-- closed div for spinner hide  -->
+</body>
+</html>

@@ -1,0 +1,151 @@
+html {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* spinner */
+
+.spinner-stop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 290px;
+  height: 300px;
+  width: 300px;
+  border: 6px solid;
+  border-color: white transparent white transparent;
+  border-radius: 50%;
+  animation: spin 1.2s ease infinite;
+}
+
+.spinner {
+  position: relative;
+}
+
+.stop {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.spinner p {
+  color: #fbeddb;
+  text-align: center;
+  font-size: 1rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container.hide {
+  display: none;
+}
+
+.spinner.hide {
+  display: none;
+}
+
+/* spinner endline */
+
+.links:hover {
+  /* padding: 1em; */
+  border-radius: 50%;
+  text-decoration: none;
+  padding: 1px;
+  background-color: #ede9eb;
+  box-shadow: -8px 0px 20px #685555;
+}
+
+/*  links sidebar CSS  */
+.nav-links {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translatey(-50%);
+  padding: 1em 0.5em 1em 1em;
+  background: #fafafa;
+  border-radius: 0.5em 0 0 0.5em;
+  box-shadow: -4px 0px 0px #685555;
+  transition: all 300ms ease;
+}
+
+.nav-links:hover {
+  box-shadow: -8px 0px 20px #685555;
+  padding: 1em;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.nav-link a {
+  color: #111;
+  font-size: 1.5rem;
+  transition: all 200ms ease;
+}
+.nav-link a:visited {
+  color: #111;
+}
+.nav-link a:hover {
+  color: hotpink;
+  font-size: 1.75rem;
+}
+
+/* side-bar footer */
+
+/*  */
+
+.nav-links1 {
+  position: fixed;
+  left: 0%;
+  top: 100%;
+  transform: translateY(-80%);
+  padding: 1em 1em 1em 1em;
+  background: #fafafa;
+  border-radius: 0.5em 0.5em 0em 0em;
+  box-shadow: 0px -4px 0px 0px #685555;
+  transition: all 300ms ease;
+}
+
+.nav-links1:hover {
+  box-shadow: -8px 0px 20px #685555;
+  padding: 1em;
+}
+
+.nav-list1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+.nav-link1 a {
+  color: #111;
+  font-size: 1.5rem;
+  transition: all 200ms ease;
+}
+.nav-link1 a:visited {
+  color: #111;
+}
+.nav-link1 a:hover {
+  color: hotpink;
+  font-size: 1.75rem;
+}

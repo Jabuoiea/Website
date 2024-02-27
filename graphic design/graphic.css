@@ -1,0 +1,387 @@
+html {
+  /* min-height: 100vh; */
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* spinner */
+
+.spinner-stop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 290px;
+  height: 300px;
+  width: 300px;
+  border: 6px solid;
+  border-color: rgb(154, 116, 116, 1) transparent rgb(154, 116, 116, 1)
+    transparent;
+  border-radius: 50%;
+  animation: spin 1.2s ease infinite;
+}
+
+.spinner {
+  position: relative;
+}
+
+.stop {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.spinner p {
+  color: #111;
+  text-align: center;
+  font-size: 1rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container.hide {
+  display: none;
+}
+
+.spinner.hide {
+  display: none;
+}
+
+/* spinner endline */
+
+.links:hover {
+  /* padding: 1em; */
+  border-radius: 50%;
+  text-decoration: none;
+  padding: 1px;
+  background-color: #ede9eb;
+  box-shadow: -8px 0px 20px #685555;
+}
+
+/*  links sidebar CSS  */
+.nav-links {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translatey(-50%);
+  padding: 1em 0.5em 1em 1em;
+  background: #fafafa;
+  border-radius: 0.5em 0 0 0.5em;
+  box-shadow: -4px 0px 0px #685555;
+  transition: all 300ms ease;
+}
+
+.nav-links:hover {
+  box-shadow: -8px 0px 20px #685555;
+  padding: 1em;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.nav-link a {
+  color: #111;
+  font-size: 1.5rem;
+  transition: all 200ms ease;
+}
+.nav-link a:visited {
+  color: #111;
+}
+.nav-link a:hover {
+  color: hotpink;
+  font-size: 1.75rem;
+}
+
+/*  */
+
+section {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Poppins", "sans-serif";
+  background-color: #fefefa;
+}
+
+.big {
+  background-image: url("../assets/Elements4Website/SKETCHCOAST_FILM_TEXTURE_02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    rgb(249, 153, 75) 0%,
+    rgb(235, 170, 117) 20%,
+    #fefefa 50%,
+    rgba(249, 153, 75) 100%
+  );
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 11.5rem;
+  text-align: center;
+  background-image: url("../FOR WEBSITE/GD/PhotoCollage2.jpg");
+  /* background-image: url("../FOR WEBSITE/TYPOGRAPHY/3.png"); */
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@media (max-width: 1680px) {
+  h1 {
+    font-size: 10rem;
+  }
+}
+@media (max-width: 1440px) {
+  h1 {
+    font-size: 8.2rem;
+  }
+}
+
+@media (max-width: 1224px) {
+  h1 {
+    font-size: 6.2rem;
+  }
+  .menu .nav-links {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    top: 2%;
+  }
+  .menu .nav-list {
+    flex-direction: row;
+  }
+  .menu .nav-link a {
+    font-size: 1.2em;
+  }
+  .nav-link a {
+    font-size: 1.2em;
+  }
+  .nav-links1 {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+  .menu .nav-links {
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    top: 1.8%;
+  }
+  .menu .nav-link a {
+    font-size: 1em;
+  }
+  footer .nav-link a {
+    font-size: 1em;
+  }
+  footer .nav-links1 {
+    padding: 0.3em 0.3em 0.3em 0.3em;
+  }
+}
+
+h2 {
+  color: #dcdcdc;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 2px 1px 1px rgb(195, 179, 179);
+}
+
+.wrapper {
+  padding-top: 40px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.box-gd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1224px) {
+  .wrapper .box-gd .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 3.5em;
+  }
+  .box-gd .content img {
+    max-width: 450px;
+  }
+}
+
+.content img {
+  max-width: 500px;
+  object-fit: contain;
+  padding: 0;
+}
+
+@media (max-width: 425px) {
+  .box-gd .content img {
+    max-width: 250px;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+}
+
+.typography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.typo-content {
+  margin: 10px;
+}
+@media (max-width: 425px) {
+  .typo-box .typo-content img {
+    max-width: 250px;
+  }
+}
+
+.typo-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+}
+
+@media (max-width: 1560px) {
+  .typography .typo-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1024px) {
+  .typography .typo-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.typo-content img {
+  max-width: 400px;
+  object-fit: contain;
+  padding: 0;
+}
+
+@media (max-width: 1680px) {
+  .ebooks a {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .ebooks a {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 1224px) {
+  .ebooks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ebooks a {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .big .box .ebooks a {
+    font-size: 0.8rem;
+  }
+}
+
+/*  */
+
+/* side-bar footer */
+
+.nav-links1 {
+  position: fixed;
+  left: 0%;
+  top: 100%;
+  transform: translateY(-80%);
+  padding: 1em 1em 1em 1em;
+  background: #fafafa;
+  border-radius: 0.5em 0.5em 0em 0em;
+  box-shadow: 0px -4px 0px 0px #685555;
+  transition: all 300ms ease;
+}
+
+.nav-links1:hover {
+  box-shadow: -8px 0px 20px #685555;
+  padding: 1em;
+}
+
+.nav-list1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+.nav-link1 a {
+  color: #111;
+  font-size: 1.5rem;
+  transition: all 200ms ease;
+}
+
+.nav-link1 a:visited {
+  color: #111;
+}
+.nav-link1 a:hover {
+  color: hotpink;
+  font-size: 1.75rem;
+}
