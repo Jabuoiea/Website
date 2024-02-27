@@ -95,7 +95,7 @@ h2 {
 .nav-links {
   position: fixed;
   right: 0;
-  top: 50%;
+  top: 2.5%;
   transform: translatey(-50%);
   padding: 1em 0.5em 1em 1em;
   background: #fafafa;
@@ -112,7 +112,7 @@ h2 {
 .nav-list {
   list-style: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1em;
 }
 .nav-link a {
@@ -185,12 +185,6 @@ section {
   }
   h1 {
     font-size: 4em;
-  }
-  .menu .nav-links {
-    top: 2.5%;
-  }
-  .menu .nav-list {
-    flex-direction: row;
   }
 }
 
