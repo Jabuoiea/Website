@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <style>html{visibility: hidden; opacity:0;} </style>
     <link rel="stylesheet" href="./home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css" integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Caveat&family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Vina+Sans&display=swap" rel="stylesheet">    
-</head>
-<body id="home" onload="loaderHome()" oncontextmenu="return false;">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Caveat&family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Vina+Sans&display=swap" rel="stylesheet"> 
     <script>
         function loaderHome() {
         setTimeout(() => {
@@ -28,8 +27,9 @@
             return false;
         });
         });
-    </script>
-
+    </script>   
+</head>
+<body id="home" onload="loaderHome()">
     <div class="spinner">
         <div class="spinner-stop"></div>
             <div class="stop">
@@ -58,7 +58,7 @@
         </nav>
         <div class="home">
             <div class="home-image">
-                <img src="../assets/Elements4Website/Profile.jpg" alt="Profile Picture of a Girl">
+                <img src="../assets/Elements4Website/Profile.jpg" alt="Profile Picture of a Girl" loading="lazy">
             </div>
                 <div class="home-content">
                     <h1 class="firstType">Nina Louise C. Semana</h1>
@@ -73,7 +73,7 @@
                     
                     <a class="btn" href="../about/about.html" >About @jabouiea</a>
                     <a class="btnCap" href="../capstone/capstone.html" >Capstone</a> 
-                    <a class="btnCap" href="../FOR WEBSITE/SEMANA, Nina - Resume.pdf" >Resume</a> 
+                    <a class="btnCap" href="../FOR WEBSITE/SEMANA, Nina - Resume.pdf" target="_blank">Resume</a> 
                     
                 </div>
                 <!-- <div class="copyright">

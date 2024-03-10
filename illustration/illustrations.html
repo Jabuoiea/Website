@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Illustrations</title>
+        <style>html{visibility: hidden; opacity:0;} </style>
         <link rel="stylesheet" href="./Illustrations.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css" integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Caveat&family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Vina+Sans&display=swap" rel="stylesheet">
+        <script>
+            function loader() {
+            setTimeout(() => {
+                document.querySelector(".container").classList.add("hide");
+            }, 0);
+            setTimeout(() => {
+                document.querySelector(".container").classList.remove("hide");
+                document.querySelector(".spinner").classList.add("hide");
+            }, 2000);
+            }
+            
+            $(document).ready(function () {
+            $(".image-link").on("contextmenu", function (e) {
+                return false;
+            });
+            });
+        </script>
 </head>
 <body oncontextmenu="return false;" onload="loader()">
-<script>
-    function loader() {
-    setTimeout(() => {
-        document.querySelector(".container").classList.add("hide");
-    }, 0);
-    setTimeout(() => {
-        document.querySelector(".container").classList.remove("hide");
-        document.querySelector(".spinner").classList.add("hide");
-    }, 2000);
-    }
-    
-    $(document).ready(function () {
-    $(".image-link").on("contextmenu", function (e) {
-        return false;
-    });
-    });
-</script>
     <div class="spinner">
         <div class="spinner-stop"></div>
             <div class="stop">
@@ -58,19 +59,19 @@
     <div class="ladder-container">
         <div class="grid-con-3 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/3 Vessel.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/3 Vessel.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>        
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/4 Knot.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/4 Knot.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/15 Helmet.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/15 Helmet.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -78,25 +79,25 @@
         </div>
         <div class="grid-con-4 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/5 Raven.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/5 Raven.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>        
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/6 Spirit.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/6 Spirit.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/31 Risk.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/31 Risk.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/8 Watch.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/8 Watch.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -104,31 +105,31 @@
         </div>
         <div class="grid-con-5 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/9 Pressure 1.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/9 Pressure 1.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/10 Pick.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/10 Pick.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/12 Stuck.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/12 Stuck.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/26 Connect.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/26 Connect.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/28  Crispy.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/28  Crispy.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -140,31 +141,31 @@
         <!-- other half -->
         <div class="grid-con-5 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/1 Crystal.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/1 Crystal.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>        
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/18 Moon.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/18 Moon.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/30 Slither.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/30 Slither.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/21 Fuzzy.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/21 Fuzzy.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/23 Leak.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/23 Leak.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -172,25 +173,25 @@
         </div>
         <div class="grid-con-4 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/24 Extinct.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/24 Extinct.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>        
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/25 Splat.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/25 Splat.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div> 
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/14 I'm Running Out Of Time.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/14 I'm Running Out Of Time.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/27 Spark.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/27 Spark.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -198,19 +199,19 @@
         </div>
         <div class="grid-con-3 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/19 Loop.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/19 Loop.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/7 Fan.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/7 Fan.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/16 Compass.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/16 Compass.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -218,13 +219,13 @@
         </div>
         <div class="grid-con-2 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/20 Sprout.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/20 Sprout.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/17 Collide.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/17 Collide.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -232,7 +233,7 @@
         </div>
         <div class="grid-con-1 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Inktober/29 Patch.jpg" alt="">
+                <img src="../FOR WEBSITE/Inktober/29 Patch.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -242,31 +243,31 @@
 
         <div class="grid-con-5 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Tarot Cards/Beldam.jpg" alt="">
+                <img src="../FOR WEBSITE/Tarot Cards/Beldam.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>        
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Tarot Cards/Death.jpg" alt="">
+                <img src="../FOR WEBSITE/Tarot Cards/Death.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Tarot Cards/Tojimari.jpg" alt="">
+                <img src="../FOR WEBSITE/Tarot Cards/Tojimari.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>  
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Tarot Cards/Howl.jpg" alt="">
+                <img src="../FOR WEBSITE/Tarot Cards/Howl.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Tarot Cards/Kermit.jpg" alt="">
+                <img src="../FOR WEBSITE/Tarot Cards/Kermit.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -274,25 +275,25 @@
         </div>
         <div class="grid-con-4 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Tarot Cards/Freddy's.jpg" alt="">
+                <img src="../FOR WEBSITE/Tarot Cards/Freddy's.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Digital Art/Beautiful Scars.jpg" alt="">
+                <img src="../FOR WEBSITE/Digital Art/Beautiful Scars.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div> 
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Digital Art/Broken.jpg" alt="">
+                <img src="../FOR WEBSITE/Digital Art/Broken.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Digital Art/Burned Out.jpg" alt="">
+                <img src="../FOR WEBSITE/Digital Art/Burned Out.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -300,19 +301,19 @@
         </div>
         <div class="grid-con-3 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Digital Art/BE KIND.png" alt="">
+                <img src="../FOR WEBSITE/Digital Art/BE KIND.png" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>        
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Digital Art/Ice Cream.jpg" alt="">
+                <img src="../FOR WEBSITE/Digital Art/Ice Cream.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>  
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Digital Art/LOVE ME ANYWAY.png" alt="">
+                <img src="../FOR WEBSITE/Digital Art/LOVE ME ANYWAY.png" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -320,13 +321,13 @@
         </div>
         <div class="grid-con-2 grid-con">
         <div class="ladder-img">
-            <img src="../FOR WEBSITE/Digital Art/Soul.jpg" alt="">
+            <img src="../FOR WEBSITE/Digital Art/Soul.jpg" alt="" loading="lazy">
             <div class="description">
                 <p></p>
             </div>
         </div>
         <div class="ladder-img">
-            <img src="../FOR WEBSITE/Digital Art/Temper.jpg" alt="">
+            <img src="../FOR WEBSITE/Digital Art/Temper.jpg" alt="" loading="lazy">
             <div class="description">
                 <p></p>
             </div>
@@ -334,7 +335,7 @@
         </div>
         <div class="grid-con-1 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Digital Art/I'm fucked up, I'm faded.jpg" alt="">
+                <img src="../FOR WEBSITE/Digital Art/I'm fucked up, I'm faded.jpg" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
@@ -342,13 +343,13 @@
         </div>
         <div class="grid-con-2 grid-con">
         <div class="ladder-img">
-            <img src="../FOR WEBSITE/Digital Art/Turning Red.jpg" alt="">
+            <img src="../FOR WEBSITE/Digital Art/Turning Red.jpg" alt="" loading="lazy">
             <div class="description">
                 <p></p>
             </div>
         </div>
         <div class="ladder-img">
-            <img src="../FOR WEBSITE/Digital Art/Venom.jpg" alt="">
+            <img src="../FOR WEBSITE/Digital Art/Venom.jpg" alt="" loading="lazy">
             <div class="description">
                 <p></p>
             </div>
@@ -356,19 +357,19 @@
         </div>
         <div class="grid-con-3 grid-con">
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Trad Art/Screenshot_20191231-172306.png" alt="">
+                <img src="../FOR WEBSITE/Trad Art/Screenshot_20191231-172306.png" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Trad Art/Screenshot_20191231-172311.png" alt="">
+                <img src="../FOR WEBSITE/Trad Art/Screenshot_20191231-172311.png" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
             </div>
             <div class="ladder-img">
-                <img src="../FOR WEBSITE/Trad Art/Screenshot_20191231-172334.png" alt="">
+                <img src="../FOR WEBSITE/Trad Art/Screenshot_20191231-172334.png" alt="" loading="lazy">
                 <div class="description">
                     <p></p>
                 </div>
