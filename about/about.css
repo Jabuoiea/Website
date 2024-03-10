@@ -1,7 +1,5 @@
 html {
   min-height: 100vh;
-  visibility: visible;
-  opacity: 1;
 }
 
 a {
@@ -180,15 +178,6 @@ section {
   margin-top: 40px;
   margin-left: 200px;
 }
-
-/* @media (max-width: 1440px) {
-  .menu .nav-links {
-    top: 2.5%;
-  }
-  .menu .nav-list {
-    flex-direction: row;
-  }
-} */
 
 @media (max-width: 1240px) {
   .wrapperPicsQ {
